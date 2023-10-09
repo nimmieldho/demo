@@ -38,10 +38,10 @@
     </ul>
 <!------        search and submit       ------->
 
-   <form class="d-flex" action="{% url 'search_app:SearchResult' %}" method="get">
+   <form class="d-flex form-inline my-2 my-lg-0" action="{% url 'search_app:SearchResult' %}" method="get">
        {% csrf_token %}
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" name="q" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fa-solid fa-magnifying-glass fa-beat-fade" style="color: #0000ff;"></i></button>
+      <input class="form-control me-2" type="search" placeholder="Search" name="q" placeholder="Search" aria-label="Search" style="align:right;">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fa-solid fa-magnifying-glass fa-beat-fade" style="align:right; color: #0000ff;"></i></button>
     </form>
   </div>
 </nav>

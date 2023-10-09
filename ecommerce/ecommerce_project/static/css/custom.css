@@ -1,21 +1,39 @@
+/*** navbar ***/
 .nav-item
 {
-       letter-spacing: .16ef;
+       letter-spacing: .16em;
        font-size: 20px;
        text-transform:normal;
 
    }
 
 .dropdown-item {
-
-       letter-spacing: .2ef;
+        margin-top:auto;
+       letter-spacing: .2em;
        font-size: 12px;
        text-transform: normal;
 
 }
+/*** body ***/
+body{
+position:relative;
+margin:0;
+min-height:100vh;
+padding-bottom:6.74rem;
+display:flex;
+flex-direction:column;
+box-sizing:inherit;
+}
+
+/*** footer ***/
 .my_footer{
 background-color:#CCCCFF;
-height:60px;
+bottom:0;
+padding:15px;
+left:0;
+right:0;
+margin:0;
+position:absolute;
 }
 .my_footer p{
 padding-top:20px;
